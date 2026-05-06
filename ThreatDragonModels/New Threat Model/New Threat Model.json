@@ -26,9 +26,18 @@
         "thumbnail": "./public/content/images/thumbnail.plot4ai.jpg",
         "version": "2.6.1",
         "cells": []
+      },
+      {
+        "id": 2,
+        "title": "New CIA diagram",
+        "diagramType": "CIA",
+        "placeholder": "New CIA diagram description",
+        "thumbnail": "./public/content/images/thumbnail.cia.jpg",
+        "version": "2.6.1",
+        "cells": []
       }
     ],
-    "diagramTop": 2,
+    "diagramTop": 3,
     "reviewer": "",
     "threatTop": 0
   }
