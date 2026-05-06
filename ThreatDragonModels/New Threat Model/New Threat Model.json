@@ -468,7 +468,16 @@
               "cell": "f2a919c0-706e-40e0-94d3-3690a80a9459",
               "port": "e618543b-896f-4367-9f58-bc1555276d76"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 1570,
+                "y": 450
+              },
+              {
+                "x": 1540,
+                "y": 250
+              }
+            ]
           },
           {
             "position": {
@@ -985,8 +994,8 @@
           },
           {
             "position": {
-              "x": 1390,
-              "y": 50
+              "x": 1355,
+              "y": 15
             },
             "size": {
               "width": 220,
@@ -1155,18 +1164,13 @@
               "cell": "f2a919c0-706e-40e0-94d3-3690a80a9459",
               "port": "edf18acd-22ef-424f-b6f9-ecca88143f29"
             },
-            "vertices": [
-              {
-                "x": 1020,
-                "y": 850
-              },
-              {
-                "x": 1310,
-                "y": 600
-              }
-            ],
             "tools": {
               "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
                 "boundary",
                 "button-remove",
                 "vertices",
@@ -1414,7 +1418,17 @@
                 "target-arrowhead"
               ],
               "name": null
-            }
+            },
+            "vertices": [
+              {
+                "x": 1020,
+                "y": 850
+              },
+              {
+                "x": 1310,
+                "y": 600
+              }
+            ]
           }
         ]
       }
