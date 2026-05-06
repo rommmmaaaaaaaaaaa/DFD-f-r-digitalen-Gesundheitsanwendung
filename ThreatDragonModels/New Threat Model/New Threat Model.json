@@ -1000,6 +1000,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 18,
             "ports": {
               "groups": {
                 "top": {
@@ -1083,7 +1084,6 @@
               ]
             },
             "id": "f2a919c0-706e-40e0-94d3-3690a80a9459",
-            "zIndex": 18,
             "data": {
               "type": "tm.Store",
               "name": "Backend ",
@@ -1109,7 +1109,7 @@
                   "name": "block"
                 },
                 "sourceMarker": {
-                  "name": ""
+                  "name": "block"
                 },
                 "strokeDasharray": null
               }
@@ -1126,7 +1126,7 @@
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "isBidirectional": false,
+              "isBidirectional": true,
               "isEncrypted": false,
               "isPublicNetwork": false,
               "protocol": "",
@@ -1146,6 +1146,14 @@
               "port": "edf18acd-22ef-424f-b6f9-ecca88143f29"
             },
             "vertices": [
+              {
+                "x": 1110,
+                "y": 480
+              },
+              {
+                "x": 1080,
+                "y": 500
+              },
               {
                 "x": 1040,
                 "y": 570
