@@ -60,15 +60,15 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "74c15027-2501-44bd-8fb7-fdbc7bcf2ca6",
-                "4580c725-d18d-4e82-950b-b1a2ca174d82",
-                "1bceb9ef-246e-47b0-86d1-e89d8678e914"
+                "46eccd22-bfc7-4655-8cfa-02d42bb936b3",
+                "1bceb9ef-246e-47b0-86d1-e89d8678e914",
+                "430bc6be-95f0-4476-8878-58879779f802"
               ],
               "containedElements": [
                 "1c35baa6-f543-475b-a93e-4b254912b1b3",
                 "b3e55f07-8863-4ca0-a05c-37ed99a40d3c",
                 "ebec5e0e-4fa5-413e-931a-6595df91361a",
-                "37b2b34a-5708-466a-b6f0-4fb61f56902f"
+                "f2a919c0-706e-40e0-94d3-3690a80a9459"
               ]
             }
           },
@@ -97,11 +97,11 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "74c15027-2501-44bd-8fb7-fdbc7bcf2ca6",
-                "4580c725-d18d-4e82-950b-b1a2ca174d82"
+                "46eccd22-bfc7-4655-8cfa-02d42bb936b3",
+                "430bc6be-95f0-4476-8878-58879779f802"
               ],
               "containedElements": [
-                "4520aedb-aba4-480a-9ead-e35ffb1afadf"
+                "37b2b34a-5708-466a-b6f0-4fb61f56902f"
               ]
             }
           },
@@ -225,8 +225,8 @@
           },
           {
             "position": {
-              "x": 1261.25,
-              "y": 320
+              "x": 1090,
+              "y": 390
             },
             "size": {
               "width": 90,
@@ -363,106 +363,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Authentifizierungsdaten\n\n",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": true,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "2d2d9255-4577-42a8-ae77-2ba3fbf7e48f",
-                "680399bf-2f9f-40d6-9c0e-1c93d7628614"
-              ]
-            },
-            "labels": [
-              "Authentifizierungsdaten\n"
-            ],
-            "id": "74c15027-2501-44bd-8fb7-fdbc7bcf2ca6",
-            "source": {
-              "cell": "1c35baa6-f543-475b-a93e-4b254912b1b3",
-              "port": "a8f10301-25c1-4aea-b214-d9bdff910026"
-            },
-            "target": {
-              "cell": "4520aedb-aba4-480a-9ead-e35ffb1afadf",
-              "port": "4a9e2ef9-0a6e-49cc-bc4b-b5ab14432da8"
-            },
-            "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": "block"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": " Gesundheits- und Therapiedaten \n",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": true,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "2d2d9255-4577-42a8-ae77-2ba3fbf7e48f",
-                "680399bf-2f9f-40d6-9c0e-1c93d7628614"
-              ]
-            },
-            "labels": [
-              " Gesundheits- und Therapiedaten \n"
-            ],
-            "id": "4580c725-d18d-4e82-950b-b1a2ca174d82",
-            "source": {
-              "cell": "b3e55f07-8863-4ca0-a05c-37ed99a40d3c",
-              "port": "3ecd0b2a-32af-45db-8ec0-a3b3db8b1b52"
-            },
-            "target": {
-              "cell": "4520aedb-aba4-480a-9ead-e35ffb1afadf",
-              "port": "b92774a5-07fe-4ac1-b901-ad71fad6918c"
-            },
-            "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": "block"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Daten ",
               "description": "",
               "outOfScope": false,
@@ -474,7 +374,10 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "2d2d9255-4577-42a8-ae77-2ba3fbf7e48f",
+                "680399bf-2f9f-40d6-9c0e-1c93d7628614"
+              ]
             },
             "labels": [
               "Daten"
@@ -490,8 +393,16 @@
             },
             "vertices": [
               {
-                "x": 1180,
-                "y": 410
+                "x": 1120,
+                "y": 25
+              },
+              {
+                "x": 1010,
+                "y": 190
+              },
+              {
+                "x": 1010,
+                "y": 440
               }
             ]
           },
@@ -504,7 +415,7 @@
                   "name": "block"
                 },
                 "sourceMarker": {
-                  "name": ""
+                  "name": "block"
                 },
                 "strokeDasharray": null
               }
@@ -515,13 +426,13 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": " Gesundheits- und Therapiedaten\n ",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "isBidirectional": false,
+              "isBidirectional": true,
               "isEncrypted": false,
               "isPublicNetwork": false,
               "protocol": "",
@@ -529,24 +440,28 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              " Gesundheits- und Therapiedaten\n"
             ],
-            "id": "02d45fa0-0505-46f8-9fa6-6e98659f17ac",
+            "id": "338b67b7-1298-41b3-9b12-1571a8b6dcd2",
             "source": {
-              "cell": "37b2b34a-5708-466a-b6f0-4fb61f56902f",
+              "cell": "b3e55f07-8863-4ca0-a05c-37ed99a40d3c",
               "port": "3ecd0b2a-32af-45db-8ec0-a3b3db8b1b52"
             },
             "target": {
-              "cell": "37b2b34a-5708-466a-b6f0-4fb61f56902f",
-              "port": "3ecd0b2a-32af-45db-8ec0-a3b3db8b1b52"
+              "cell": "f2a919c0-706e-40e0-94d3-3690a80a9459",
+              "port": "e618543b-896f-4367-9f58-bc1555276d76"
             },
-            "vertices": [],
-            "parent": "37b2b34a-5708-466a-b6f0-4fb61f56902f"
+            "vertices": [
+              {
+                "x": 1535,
+                "y": 600
+              }
+            ]
           },
           {
             "position": {
-              "x": 1340,
-              "y": 580
+              "x": 1420,
+              "y": 380
             },
             "size": {
               "width": 90,
@@ -665,8 +580,8 @@
           },
           {
             "position": {
-              "x": 1130,
-              "y": 750.0000000000019
+              "x": 1080,
+              "y": 620
             },
             "size": {
               "width": 240,
@@ -789,8 +704,8 @@
           },
           {
             "position": {
-              "x": 1000,
-              "y": 480
+              "x": 1220,
+              "y": 25
             },
             "size": {
               "width": 210,
@@ -911,27 +826,180 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 15,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": " Gesundheits- und Therapiedaten\n",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              " Gesundheits- und Therapiedaten"
+            ],
+            "id": "46a07eec-8df5-4bc9-8484-0e74430916fd",
+            "source": {
+              "cell": "b3e55f07-8863-4ca0-a05c-37ed99a40d3c",
+              "port": "4364a4a8-d0dd-4d68-b582-3522497d530a"
+            },
+            "target": {
+              "cell": "ebec5e0e-4fa5-413e-931a-6595df91361a",
+              "port": "2dd0a2b2-2507-4700-b61e-defb840b6b8a"
+            },
+            "vertices": [
+              {
+                "x": 1270,
+                "y": 500
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 16,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Daten ",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "2d2d9255-4577-42a8-ae77-2ba3fbf7e48f"
+              ]
+            },
+            "labels": [
+              "Daten"
+            ],
+            "id": "1bceb9ef-246e-47b0-86d1-e89d8678e914",
+            "source": {
+              "cell": "0ae244d2-53ae-4cf9-a0fe-cf0becd55961",
+              "port": "b24e1834-5c80-4b88-a964-78014d59ca5c"
+            },
+            "target": {
+              "cell": "1c35baa6-f543-475b-a93e-4b254912b1b3",
+              "port": "a8f10301-25c1-4aea-b214-d9bdff910026"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 17,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Authentifizierungsdaten ",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "2d2d9255-4577-42a8-ae77-2ba3fbf7e48f",
+                "680399bf-2f9f-40d6-9c0e-1c93d7628614"
+              ]
+            },
+            "labels": [
+              "Authentifizierungsdaten"
+            ],
+            "id": "430bc6be-95f0-4476-8878-58879779f802",
+            "source": {
+              "cell": "37b2b34a-5708-466a-b6f0-4fb61f56902f",
+              "port": "4364a4a8-d0dd-4d68-b582-3522497d530a"
+            },
+            "target": {
+              "cell": "b3e55f07-8863-4ca0-a05c-37ed99a40d3c",
+              "port": "f1c7be2e-b14a-4cdb-b0df-0cbc6e42dc98"
+            },
+            "vertices": []
+          },
+          {
             "position": {
-              "x": 1510,
-              "y": 65
+              "x": 1410,
+              "y": 720
             },
             "size": {
-              "width": 112.5,
-              "height": 60
+              "width": 220,
+              "height": 140
             },
             "attrs": {
               "text": {
-                "text": "Externes Backend"
+                "text": "Backend"
               },
-              "body": {
-                "stroke": "#333333",
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
                 "strokeWidth": 1.5,
                 "strokeDasharray": null
               }
             },
             "visible": true,
-            "shape": "actor",
-            "zIndex": 14,
+            "shape": "store",
             "ports": {
               "groups": {
                 "top": {
@@ -998,32 +1066,37 @@
               "items": [
                 {
                   "group": "top",
-                  "id": "7ad608e8-b26f-45d6-87e8-bac30381c15c"
+                  "id": "e618543b-896f-4367-9f58-bc1555276d76"
                 },
                 {
                   "group": "right",
-                  "id": "b92774a5-07fe-4ac1-b901-ad71fad6918c"
+                  "id": "880a4410-e158-46b1-a7f4-e8a5f7397a34"
                 },
                 {
                   "group": "bottom",
-                  "id": "52ea0034-9b03-46eb-b152-73c1bce981f0"
+                  "id": "2c74a3ad-fe1e-4d8d-aefd-61559cbe1261"
                 },
                 {
                   "group": "left",
-                  "id": "4a9e2ef9-0a6e-49cc-bc4b-b5ab14432da8"
+                  "id": "edf18acd-22ef-424f-b6f9-ecca88143f29"
                 }
               ]
             },
-            "id": "4520aedb-aba4-480a-9ead-e35ffb1afadf",
+            "id": "f2a919c0-706e-40e0-94d3-3690a80a9459",
+            "zIndex": 18,
             "data": {
-              "type": "tm.Actor",
-              "name": "Externes Backend ",
+              "type": "tm.Store",
+              "name": "Backend ",
               "description": "",
-              "isTrustBoundary": false,
               "outOfScope": false,
+              "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "providesAuthentication": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
               "threats": []
             }
           },
@@ -1036,24 +1109,24 @@
                   "name": "block"
                 },
                 "sourceMarker": {
-                  "name": "block"
+                  "name": ""
                 },
                 "strokeDasharray": null
               }
             },
             "width": 200,
             "height": 100,
-            "zIndex": 15,
+            "zIndex": 19,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": " Gesundheits- und Therapiedaten\n",
+              "name": "Relevante daten",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "isBidirectional": true,
+              "isBidirectional": false,
               "isEncrypted": false,
               "isPublicNetwork": false,
               "protocol": "",
@@ -1061,129 +1134,27 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              " Gesundheits- und Therapiedaten"
+              "Relevante date"
             ],
-            "id": "46a07eec-8df5-4bc9-8484-0e74430916fd",
+            "id": "aa938b65-74d1-4d52-951b-17f5cd987a3a",
             "source": {
-              "cell": "b3e55f07-8863-4ca0-a05c-37ed99a40d3c",
-              "port": "4364a4a8-d0dd-4d68-b582-3522497d530a"
-            },
-            "target": {
-              "cell": "ebec5e0e-4fa5-413e-931a-6595df91361a",
-              "port": "2dd0a2b2-2507-4700-b61e-defb840b6b8a"
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            },
-            "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": "block"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 16,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Daten ",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": true,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "2d2d9255-4577-42a8-ae77-2ba3fbf7e48f"
-              ]
-            },
-            "labels": [
-              "Daten"
-            ],
-            "id": "1bceb9ef-246e-47b0-86d1-e89d8678e914",
-            "source": {
-              "cell": "0ae244d2-53ae-4cf9-a0fe-cf0becd55961",
-              "port": "b24e1834-5c80-4b88-a964-78014d59ca5c"
-            },
-            "target": {
               "cell": "1c35baa6-f543-475b-a93e-4b254912b1b3",
-              "port": "f1c7be2e-b14a-4cdb-b0df-0cbc6e42dc98"
-            },
-            "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": "block"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 17,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Authentifizierungsdaten ",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": true,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Authentifizierungsdaten"
-            ],
-            "id": "430bc6be-95f0-4476-8878-58879779f802",
-            "source": {
-              "cell": "37b2b34a-5708-466a-b6f0-4fb61f56902f",
               "port": "4364a4a8-d0dd-4d68-b582-3522497d530a"
             },
             "target": {
-              "cell": "b3e55f07-8863-4ca0-a05c-37ed99a40d3c",
-              "port": "f1c7be2e-b14a-4cdb-b0df-0cbc6e42dc98"
+              "cell": "f2a919c0-706e-40e0-94d3-3690a80a9459",
+              "port": "edf18acd-22ef-424f-b6f9-ecca88143f29"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 1040,
+                "y": 570
+              },
+              {
+                "x": 1020,
+                "y": 850
+              }
+            ]
           }
         ]
       }
