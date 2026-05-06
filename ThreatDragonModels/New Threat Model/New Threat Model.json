@@ -61,21 +61,22 @@
               "hasOpenThreats": false,
               "crossingFlows": [
                 "46eccd22-bfc7-4655-8cfa-02d42bb936b3",
+                "338b67b7-1298-41b3-9b12-1571a8b6dcd2",
                 "1bceb9ef-246e-47b0-86d1-e89d8678e914",
-                "430bc6be-95f0-4476-8878-58879779f802"
+                "430bc6be-95f0-4476-8878-58879779f802",
+                "aa938b65-74d1-4d52-951b-17f5cd987a3a"
               ],
               "containedElements": [
                 "1c35baa6-f543-475b-a93e-4b254912b1b3",
                 "b3e55f07-8863-4ca0-a05c-37ed99a40d3c",
-                "ebec5e0e-4fa5-413e-931a-6595df91361a",
-                "f2a919c0-706e-40e0-94d3-3690a80a9459"
+                "ebec5e0e-4fa5-413e-931a-6595df91361a"
               ]
             }
           },
           {
             "position": {
-              "x": 970,
-              "y": -30
+              "x": 930,
+              "y": -50
             },
             "size": {
               "width": 710,
@@ -98,10 +99,13 @@
               "hasOpenThreats": false,
               "crossingFlows": [
                 "46eccd22-bfc7-4655-8cfa-02d42bb936b3",
-                "430bc6be-95f0-4476-8878-58879779f802"
+                "338b67b7-1298-41b3-9b12-1571a8b6dcd2",
+                "430bc6be-95f0-4476-8878-58879779f802",
+                "aa938b65-74d1-4d52-951b-17f5cd987a3a"
               ],
               "containedElements": [
-                "37b2b34a-5708-466a-b6f0-4fb61f56902f"
+                "37b2b34a-5708-466a-b6f0-4fb61f56902f",
+                "f2a919c0-706e-40e0-94d3-3690a80a9459"
               ]
             }
           },
@@ -393,18 +397,28 @@
             },
             "vertices": [
               {
-                "x": 1120,
-                "y": 25
+                "x": 960,
+                "y": 20
               },
               {
-                "x": 1010,
-                "y": 190
+                "x": 960,
+                "y": 100
               },
               {
                 "x": 1010,
                 "y": 440
               }
-            ]
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           },
           {
             "shape": "flow",
@@ -437,7 +451,10 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "2d2d9255-4577-42a8-ae77-2ba3fbf7e48f",
+                "680399bf-2f9f-40d6-9c0e-1c93d7628614"
+              ]
             },
             "labels": [
               " Gesundheits- und Therapiedaten\n"
@@ -451,12 +468,7 @@
               "cell": "f2a919c0-706e-40e0-94d3-3690a80a9459",
               "port": "e618543b-896f-4367-9f58-bc1555276d76"
             },
-            "vertices": [
-              {
-                "x": 1535,
-                "y": 600
-              }
-            ]
+            "vertices": []
           },
           {
             "position": {
@@ -580,8 +592,8 @@
           },
           {
             "position": {
-              "x": 1080,
-              "y": 620
+              "x": 1345,
+              "y": 720
             },
             "size": {
               "width": 240,
@@ -704,8 +716,8 @@
           },
           {
             "position": {
-              "x": 1220,
-              "y": 25
+              "x": 980,
+              "y": 50
             },
             "size": {
               "width": 210,
@@ -870,12 +882,7 @@
               "cell": "ebec5e0e-4fa5-413e-931a-6595df91361a",
               "port": "2dd0a2b2-2507-4700-b61e-defb840b6b8a"
             },
-            "vertices": [
-              {
-                "x": 1270,
-                "y": 500
-              }
-            ]
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -978,8 +985,8 @@
           },
           {
             "position": {
-              "x": 1410,
-              "y": 720
+              "x": 1390,
+              "y": 50
             },
             "size": {
               "width": 220,
@@ -1131,7 +1138,10 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "2d2d9255-4577-42a8-ae77-2ba3fbf7e48f",
+                "680399bf-2f9f-40d6-9c0e-1c93d7628614"
+              ]
             },
             "labels": [
               "Relevante date"
@@ -1161,8 +1171,142 @@
               {
                 "x": 1020,
                 "y": 850
+              },
+              {
+                "x": 1310,
+                "y": 600
               }
-            ]
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           }
         ]
       }
