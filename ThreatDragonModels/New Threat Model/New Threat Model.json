@@ -61,8 +61,7 @@
               "hasOpenThreats": false,
               "crossingFlows": [
                 "46eccd22-bfc7-4655-8cfa-02d42bb936b3",
-                "e6464248-3185-4511-b7a9-2a07e6e18702",
-                "f1d2d04d-0fd4-4a57-b39b-35f9d08df7df",
+                "628dee3e-5b94-4c7e-a84e-9cf7bc47a2c5",
                 "1bceb9ef-246e-47b0-86d1-e89d8678e914",
                 "430bc6be-95f0-4476-8878-58879779f802"
               ],
@@ -99,13 +98,10 @@
               "hasOpenThreats": false,
               "crossingFlows": [
                 "46eccd22-bfc7-4655-8cfa-02d42bb936b3",
-                "e6464248-3185-4511-b7a9-2a07e6e18702",
-                "f1d2d04d-0fd4-4a57-b39b-35f9d08df7df",
                 "430bc6be-95f0-4476-8878-58879779f802"
               ],
               "containedElements": [
-                "37b2b34a-5708-466a-b6f0-4fb61f56902f",
-                "f2a919c0-706e-40e0-94d3-3690a80a9459"
+                "37b2b34a-5708-466a-b6f0-4fb61f56902f"
               ]
             }
           },
@@ -238,7 +234,7 @@
             },
             "attrs": {
               "text": {
-                "text": "APP(DiGA)"
+                "text": "DiGA"
               },
               "body": {
                 "stroke": "#333333",
@@ -334,7 +330,7 @@
             "id": "1c35baa6-f543-475b-a93e-4b254912b1b3",
             "data": {
               "type": "tm.Process",
-              "name": "APP(DiGA)\n",
+              "name": "DiGA\n",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -422,7 +418,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": " Gesundheits- und Therapiedaten\n ",
+              "name": "funktionsrelevante Daten\n",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -434,76 +430,29 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "2d2d9255-4577-42a8-ae77-2ba3fbf7e48f",
-                "680399bf-2f9f-40d6-9c0e-1c93d7628614"
+                "2d2d9255-4577-42a8-ae77-2ba3fbf7e48f"
               ]
             },
             "labels": [
-              " Gesundheits- und Therapiedaten\n"
+              "funktionsrelevante Daten"
             ],
-            "id": "e6464248-3185-4511-b7a9-2a07e6e18702",
+            "id": "628dee3e-5b94-4c7e-a84e-9cf7bc47a2c5",
             "source": {
-              "cell": "b3e55f07-8863-4ca0-a05c-37ed99a40d3c",
-              "port": "a8f10301-25c1-4aea-b214-d9bdff910026"
+              "x": 660,
+              "y": 825
             },
             "target": {
-              "cell": "f2a919c0-706e-40e0-94d3-3690a80a9459",
-              "port": "2c74a3ad-fe1e-4d8d-aefd-61559cbe1261"
-            },
-            "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": "block"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Relevante Daten",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": true,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "2d2d9255-4577-42a8-ae77-2ba3fbf7e48f",
-                "680399bf-2f9f-40d6-9c0e-1c93d7628614"
-              ]
-            },
-            "labels": [
-              "Relevante Date"
-            ],
-            "id": "f1d2d04d-0fd4-4a57-b39b-35f9d08df7df",
-            "source": {
               "cell": "1c35baa6-f543-475b-a93e-4b254912b1b3",
-              "port": "a8f10301-25c1-4aea-b214-d9bdff910026"
-            },
-            "target": {
-              "cell": "f2a919c0-706e-40e0-94d3-3690a80a9459",
-              "port": "edf18acd-22ef-424f-b6f9-ecca88143f29"
+              "port": "3ecd0b2a-32af-45db-8ec0-a3b3db8b1b52"
             },
             "vertices": [
               {
-                "x": 1130,
-                "y": 360
+                "x": 900,
+                "y": 850
+              },
+              {
+                "x": 1090,
+                "y": 825
               }
             ]
           },
@@ -1027,29 +976,25 @@
           },
           {
             "position": {
-              "x": 1355,
-              "y": 5
+              "x": 300,
+              "y": 735
             },
             "size": {
-              "width": 220,
-              "height": 140
+              "width": 360,
+              "height": 200
             },
             "attrs": {
               "text": {
-                "text": "Backend"
+                "text": "externes Backend"
               },
-              "topLine": {
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              },
-              "bottomLine": {
+              "body": {
+                "stroke": "#333333",
                 "strokeWidth": 1.5,
                 "strokeDasharray": null
               }
             },
             "visible": true,
-            "shape": "store",
-            "zIndex": 18,
+            "shape": "actor",
             "ports": {
               "groups": {
                 "top": {
@@ -1116,36 +1061,33 @@
               "items": [
                 {
                   "group": "top",
-                  "id": "e618543b-896f-4367-9f58-bc1555276d76"
+                  "id": "0ab24b1a-03c5-4a56-8c9e-0ccde6589864"
                 },
                 {
                   "group": "right",
-                  "id": "880a4410-e158-46b1-a7f4-e8a5f7397a34"
+                  "id": "8ef8bd50-0aeb-47db-859f-289065779c27"
                 },
                 {
                   "group": "bottom",
-                  "id": "2c74a3ad-fe1e-4d8d-aefd-61559cbe1261"
+                  "id": "268413c9-917e-41d5-af08-c216582566b2"
                 },
                 {
                   "group": "left",
-                  "id": "edf18acd-22ef-424f-b6f9-ecca88143f29"
+                  "id": "0d86dca3-c3e0-4f52-8e35-709aede3e20e"
                 }
               ]
             },
-            "id": "f2a919c0-706e-40e0-94d3-3690a80a9459",
+            "id": "b6a3182f-8fe1-4163-ad7c-18de9b4d3198",
+            "zIndex": 18,
             "data": {
-              "type": "tm.Store",
-              "name": "Backend ",
+              "type": "tm.Actor",
+              "name": "externes Backend\n",
               "description": "",
-              "outOfScope": false,
               "isTrustBoundary": false,
+              "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "isALog": false,
-              "isEncrypted": false,
-              "isSigned": false,
-              "storesCredentials": false,
-              "storesInventory": false,
+              "providesAuthentication": false,
               "threats": []
             }
           }
