@@ -85,6 +85,13 @@
                 "f76ebbe2-63d5-41dd-85b9-0ad642d245f2",
                 "9c649d21-cb1e-4952-bf1b-e65e8a3b67fd"
               ]
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
