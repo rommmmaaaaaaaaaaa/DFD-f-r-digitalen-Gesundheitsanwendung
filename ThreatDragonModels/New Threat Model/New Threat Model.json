@@ -41,9 +41,7 @@
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
-              "crossingFlows": [
-                "a65b7e13-c477-49a9-b84a-ae33c1c8d76f"
-              ],
+              "crossingFlows": [],
               "containedElements": [
                 "713d0986-ad71-434d-9907-b29a45ce4b8e",
                 "e7399848-f7ec-4c99-b00a-f5eec9143cfc",
@@ -53,13 +51,6 @@
                 "f76ebbe2-63d5-41dd-85b9-0ad642d245f2",
                 "b9ea2852-ff84-47a7-be4d-2b996ba5b57a"
               ]
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -495,8 +486,8 @@
           },
           {
             "position": {
-              "x": 590,
-              "y": -400
+              "x": 570,
+              "y": -469.9999999999993
             },
             "size": {
               "width": 220,
@@ -1068,10 +1059,20 @@
             },
             "vertices": [
               {
-                "x": 570,
-                "y": -230
+                "x": 680,
+                "y": -200
               }
-            ]
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           },
           {
             "position": {
@@ -1240,8 +1241,8 @@
             },
             "vertices": [
               {
-                "x": 200,
-                "y": -290
+                "x": 180,
+                "y": -350
               }
             ]
           },
@@ -1393,9 +1394,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "61a22f42-183f-419f-8cbd-3c5e845906cb"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "Logindaten"
@@ -1406,8 +1405,8 @@
               "port": "435ce588-3b6b-4b74-b374-2cf6ad9d557d"
             },
             "target": {
-              "x": 560,
-              "y": -470
+              "cell": "82979db4-c0eb-4eff-830a-83a2bb12fa2e",
+              "port": "7b3cc809-5964-4f61-bfea-dd3988ec66a6"
             },
             "vertices": [
               {
@@ -1417,6 +1416,11 @@
             ],
             "tools": {
               "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
                 "boundary",
                 "button-remove",
                 "vertices",
