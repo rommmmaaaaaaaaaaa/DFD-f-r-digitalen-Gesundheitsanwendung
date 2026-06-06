@@ -19,8 +19,8 @@
         "cells": [
           {
             "position": {
-              "x": 140,
-              "y": 30
+              "x": 130,
+              "y": 35
             },
             "size": {
               "width": 470,
@@ -1005,13 +1005,6 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -1122,8 +1115,8 @@
           },
           {
             "position": {
-              "x": 310,
-              "y": 60
+              "x": 308.75,
+              "y": 120
             },
             "size": {
               "width": 112.5,
